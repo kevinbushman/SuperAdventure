@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Engine;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,14 +13,22 @@ namespace SuperAdventure
 {
     public partial class SuperAdventure : Form
     {
+        private Player _player;
+
         public SuperAdventure()
         {
             InitializeComponent();
+            _player = new Player();
+            _player.CurrentHitPoints = 10;
+            _pl
         }
-
+        
         private void SuperAdventure_Load(object sender, EventArgs e)
         {
 
         }
+
+        
+
     }
 }

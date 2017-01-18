@@ -88,9 +88,9 @@
             this.lblGold.AutoSize = true;
             this.lblGold.Location = new System.Drawing.Point(110, 45);
             this.lblGold.Name = "lblGold";
-            this.lblGold.Size = new System.Drawing.Size(39, 13);
+            this.lblGold.Size = new System.Drawing.Size(38, 13);
             this.lblGold.TabIndex = 5;
-            this.lblGold.Text = "lblGold";
+            this.lblGold.Text = "lblText";
             // 
             // lblExperience
             // 
